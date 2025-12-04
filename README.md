@@ -48,7 +48,7 @@ Instead of static documentation, we use AI prompts to generate **contextual, fra
 ### Prerequisites
 
 Before starting, ensure you have:
-- An active [SSOJet account](https://ssojet.com/signup)
+- An active [SSOJet account](https://portal.ssojet.com/)
 - A frontend application with an existing login page
 - Basic knowledge of your framework and OIDC concepts
 - Node.js 18+ installed (for most frameworks)
@@ -88,7 +88,7 @@ Navigate to the technology-specific directory and check the `/prompts/` folder f
 ## 🛠️ Repository Structure
 
 ```
-ssojet-react-llm-guide/
+ssojet-llm-guide/
 ├── README.md                          # This file
 ├── LICENSE                            # MIT License
 ├── CONTRIBUTING.md                    # Contribution guidelines
@@ -207,7 +207,7 @@ All generated guides include:
 - 📊 **Analytics & Monitoring** - Real-time insights
 - 💬 **Great Support** - Expert assistance when you need it
 
-**[Start Free Trial →](https://ssojet.com/signup)**
+**[Start Free Trial →](https://portal.ssojet.com/)**
 
 ## 📝 Contributing
 
@@ -247,7 +247,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 Need help? We're here for you:
 
 - **📧 Email**: [support@ssojet.com](mailto:support@ssojet.com)
-- ** Issues**: [GitHub Issues](https://github.com/ssojet/ssojet-react-llm-guide/issues)
+- ** Issues**: [GitHub Issues](https://github.com/ssojet/ssojet-llm-guide/issues)
 - **📚 Docs**: [SSOJet Documentation](https://docs.ssojet.com)
 
 ## ⭐ Star Us!

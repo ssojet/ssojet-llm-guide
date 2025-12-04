@@ -206,7 +206,7 @@ Have ideas for improving the prompt templates? See [CONTRIBUTING.md](../CONTRIBU
 
 Need help using the prompts?
 - 📧 Email: [support@ssojet.com](mailto:support@ssojet.com)
-- 🐛 Issues: [GitHub Issues](https://github.com/ssojet/ssojet-react-llm-guide/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/ssojet/ssojet-llm-guide/issues)
 
 ---
 

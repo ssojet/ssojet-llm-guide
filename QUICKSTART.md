@@ -8,11 +8,9 @@ Get started with SSOJet React integration in minutes!
 
 **If you're using Next.js 14+ with App Router:**
 
-1. **Visit the guide:** [Next.js App Router Guide](./guides/nextjs-app-router/)
+1. **Visit the guide:**
 2. **Follow the steps:** Complete setup in ~30 minutes
 3. **Test it out:** Your SSO integration is ready!
-
-**Other frameworks:** Check [available guides](./guides/) or generate a custom one (see Option 2)
 
 ### Option 2: Generate Custom Guide with AI
 
@@ -63,7 +61,7 @@ Want to contribute a guide for a new framework?
 
 1. **Fork the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ssojet-react-llm-guide.git
+   git clone https://github.com/YOUR_USERNAME/ssojet-llm-guide.git
    ```
 
 2. **Generate guide using AI prompt:**
@@ -113,13 +111,13 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 
 2. **Create GitHub repository:**
    - Go to https://github.com/new
-   - Name: `ssojet-react-llm-guide`
+   - Name: `ssojet-llm-guide`
    - Make it public
    - Don't initialize with files
 
 3. **Push to GitHub:**
    ```bash
-   git remote add origin https://github.com/ssojet/ssojet-react-llm-guide.git
+   git remote add origin https://github.com/ssojet/ssojet-llm-guide.git
    git branch -M main
    git push -u origin main
    ```
@@ -166,7 +164,6 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 **Documentation:**
 - [Main README](./README.md)
 - [AI Prompt Guide](./prompts/README.md)
-- [Integration Guides](./guides/)
 
 **SSOJet Resources:**
 - [SSOJet Website](https://ssojet.com)
@@ -176,7 +173,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 
 **Support:**
 - Email: [support@ssojet.com](mailto:support@ssojet.com)
-- Issues: [GitHub Issues](https://github.com/ssojet/ssojet-react-llm-guide/issues)
+- Issues: [GitHub Issues](https://github.com/ssojet/ssojet-llm-guide/issues)
 
 ---
 
@@ -185,21 +182,19 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
 ### New to OIDC?
 1. Read [OIDC Concepts](https://ssojet.com/blog/openid-connect-explained)
 2. Getting Started [SSOJet Account](https://docs.ssojet.com/en/getting-started/)
-3. Follow a [framework guide](./guides/)
 
 ### Experienced with OIDC?
 1. Jump to [integration guides](https://docs.ssojet.com/en/sso/quickstart/)
-2. Or use [AI prompt](./prompts/) for custom setup
 
 ### Troubleshooting?
 1. Check [common issues](./docs/troubleshooting.md)
-2. Search [GitHub issues](https://github.com/ssojet/ssojet-react-llm-guide/issues)
+2. Search [GitHub issues](https://github.com/ssojet/ssojet-llm-guide/issues)
 
 ---
 
 ## 📞 Need Help?
 
-- **Technical Issues:** [GitHub Issues](https://github.com/ssojet/ssojet-react-llm-guide/issues)
+- **Technical Issues:** [GitHub Issues](https://github.com/ssojet/ssojet-llm-guide/issues)
 - **SSOJet Support:** [support@ssojet.com](mailto:support@ssojet.com)
 - **Documentation Feedback:** Open an issue or PR
 
@@ -209,7 +204,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed guidelines.
   <strong>Ready to get started?</strong><br>
   <a href="./guides/">Browse Integration Guides</a> •
   <a href="./prompts/">Use AI Prompt</a> •
-  <a href="https://ssojet.com/signup">Sign Up for SSOJet</a>
+  <a href="https://portal.ssojet.com">Sign Up for SSOJet</a>
 </p>
 
 <p align="center">

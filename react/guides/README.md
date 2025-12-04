@@ -125,7 +125,7 @@ We're working on guides for:
 - [ ] React + Express (separate frontend/backend)
 - [ ] React + NestJS
 
-Want to see a specific framework? [Request it here](https://github.com/ssojet/ssojet-react-llm-guide/issues/new)
+Want to see a specific framework? [Request it here](https://github.com/ssojet/ssojet-llm-guide/issues/new)
 
 ---
 

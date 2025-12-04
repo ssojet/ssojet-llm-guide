@@ -10,14 +10,14 @@ SSOJet is an OpenID Connect (OIDC) compliant identity provider that enables Sing
 
 ### Step 1: Create a SSOJet Account
 
-1. Visit [ssojet.com/signup](https://ssojet.com/signup)
+1. Visit [ssojet.com](https://portal.ssojet.com/)
 2. Sign up with your email or use social login
 3. Verify your email address
 4. Complete your profile
 
 ### Step 2: Access the Dashboard
 
-1. Log in to [dashboard.ssojet.com](https://portal.ssojet.com)
+1. Log in to [portal.ssojet.com](https://portal.ssojet.com)
 2. You'll see the main dashboard overview
 
 ![SSOJet Dashboard](https://cdn.ssojet.com/common/ssojet-dashboard.png)

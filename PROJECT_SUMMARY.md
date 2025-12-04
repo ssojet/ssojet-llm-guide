@@ -9,7 +9,7 @@ Your **SSOJet React LLM Guide** repository is now ready for public release! Here
 ## 📁 Repository Structure
 
 ```
-ssojet-react-llm-guide/
+ssojet-llm-guide/
 ├── 📄 README.md                      # Main repository overview (with badges, features, quick start)
 ├── 📄 LICENSE                        # MIT License
 ├── 📄 CONTRIBUTING.md                # Contribution guidelines
@@ -196,14 +196,14 @@ ssojet-react-llm-guide/
 ### 1. Initialize Git Repository
 
 ```bash
-cd "/Users/vijay/Work/Identity/ssojet/guide repo/ssojet-react-llm-guide"
+cd "/Users/vijay/Work/Identity/ssojet/guide repo/ssojet-llm-guide"
 ./setup.sh
 ```
 
 ### 2. Create GitHub Repository
 
 1. Go to https://github.com/new (or your org)
-2. Name: `ssojet-react-llm-guide`
+2. Name: `ssojet-llm-guide`
 3. Description: "AI-powered integration guides for SSOJet SSO in React applications"
 4. Make it **Public**
 5. **Don't** initialize with README, .gitignore, or license
@@ -211,7 +211,7 @@ cd "/Users/vijay/Work/Identity/ssojet/guide repo/ssojet-react-llm-guide"
 ### 3. Push to GitHub
 
 ```bash
-git remote add origin https://github.com/YOUR_ORG/ssojet-react-llm-guide.git
+git remote add origin https://github.com/YOUR_ORG/ssojet-llm-guide.git
 git branch -M main
 git push -u origin main
 ```

@@ -454,7 +454,7 @@ window.location.href = `${issuer}/logout?` +
 - [SSOJet Dashboard](https://portal.ssojet.com)
 
 ### Tools
-- [jwt.io](https://jwt.io) - Decode JWT tokens
+- [JWT Validator](https://ssojet.com/jwt-validator/) - Decode JWT tokens
 - [OIDC Playground](https://ssojet.com/oidc-playground/) - Test OIDC flows
 
 ---

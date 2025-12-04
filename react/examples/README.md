@@ -27,8 +27,8 @@ Each example includes:
 
 ```bash
 # Clone the repository
-git clone https://github.com/ssojet/ssojet-react-llm-guide.git
-cd ssojet-react-llm-guide
+git clone https://github.com/ssojet/ssojet-llm-guide.git
+cd ssojet-llm-guide
 
 # Navigate to an example
 cd examples/nextjs-app-router-example
@@ -92,7 +92,7 @@ These examples are starting points. Customize them for your needs:
 
 ## 🐛 Issues
 
-Found an issue with an example? [Report it here](https://github.com/ssojet/ssojet-react-llm-guide/issues)
+Found an issue with an example? [Report it here](https://github.com/ssojet/ssojet-llm-guide/issues)
 
 ## 📖 Documentation
 

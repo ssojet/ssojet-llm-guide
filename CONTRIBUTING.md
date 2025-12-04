@@ -44,18 +44,18 @@ There are many ways you can contribute to this project:
 ### Development Setup
 
 1. **Fork the repository:**
-   - Visit [ssojet-react-llm-guide](https://github.com/ssojet/ssojet-react-llm-guide)
+   - Visit [ssojet-llm-guide](https://github.com/ssojet/ssojet-llm-guide)
    - Click the "Fork" button in the top-right corner
 
 2. **Clone your fork:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ssojet-react-llm-guide.git
-   cd ssojet-react-llm-guide
+   git clone https://github.com/YOUR_USERNAME/ssojet-llm-guide.git
+   cd ssojet-llm-guide
    ```
 
 3. **Add upstream remote:**
    ```bash
-   git remote add upstream https://github.com/ssojet/ssojet-react-llm-guide.git
+   git remote add upstream https://github.com/ssojet/ssojet-llm-guide.git
    ```
 
 4. **Create a feature branch:**
@@ -146,7 +146,7 @@ docs(readme): update quick start instructions
 
 ### Submitting the PR
 
-1. Go to the [original repository](https://github.com/ssojet/ssojet-react-llm-guide)
+1. Go to the [original repository](https://github.com/ssojet/ssojet-llm-guide)
 2. Click "New Pull Request"
 3. Select your fork and branch
 4. Fill out the PR template with:
@@ -261,7 +261,7 @@ We follow a strict Code of Conduct. Please be:
 If you need help:
 
 1. Check the [documentation](https://docs.ssojet.com)
-2. Search existing [GitHub issues](https://github.com/ssojet/ssojet-react-llm-guide/issues)
+2. Search existing [GitHub issues](https://github.com/ssojet/ssojet-llm-guide/issues)
 3. Contact [support@ssojet.com](mailto:support@ssojet.com)
 
 ## 🏆 Recognition

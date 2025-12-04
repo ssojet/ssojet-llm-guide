@@ -214,8 +214,8 @@ We welcome contributions in all phases! See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 Have ideas for new features or guides? 
 
-- **Open an issue:** [GitHub Issues](https://github.com/ssojet/ssojet-react-llm-guide/issues)
-- **Start a discussion:** [GitHub Discussions](https://github.com/ssojet/ssojet-react-llm-guide/discussions)
+- **Open an issue:** [GitHub Issues](https://github.com/ssojet/ssojet-llm-guide/issues)
+- **Start a discussion:** [GitHub Discussions](https://github.com/ssojet/ssojet-llm-guide/discussions)
 - **Contact us:** [support@ssojet.com](mailto:support@ssojet.com)
 
 ---
@@ -256,7 +256,7 @@ Have ideas for new features or guides?
 Your feedback shapes our roadmap! Let us know what you'd like to see:
 
 - **Email:** [support@ssojet.com](mailto:support@ssojet.com)
-- **GitHub:** [Open an issue](https://github.com/ssojet/ssojet-react-llm-guide/issues)
+- **GitHub:** [Open an issue](https://github.com/ssojet/ssojet-llm-guide/issues)
 
 ---
 

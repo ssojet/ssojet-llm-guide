@@ -74,8 +74,7 @@ Our AI prompt templates help you generate custom integration code:
 
 - [SSOJet Dashboard](https://portal.ssojet.com)
 - [SSOJet Docs](https://docs.ssojet.com)
-- [OIDC Concepts](./docs/oidc-concepts.md)
-- [Troubleshooting](./docs/troubleshooting.md)
+- [OIDC Concepts](../oidc-concepts.md)
 
 ## 💡 Example Use Cases
 

@@ -875,7 +875,7 @@ export function LogoutButton() {
 
 ### SSOJet
 - [SSOJet Documentation](https://docs.ssojet.com)
-- [SSOJet Dashboard](https://dashboard.ssojet.com)
+- [SSOJet Dashboard](https://portal.ssojet.com)
 - [SSO Connection Setup](https://docs.ssojet.com/how-to-guides/sso/integrations/)
 
 ### NextAuth

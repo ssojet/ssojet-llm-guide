@@ -179,7 +179,7 @@ Add framework-specific requirements:
 ### SSOJet Resources
 - [SSOJet Documentation](https://docs.ssojet.com)
 - [SSO Connection Setup](https://docs.ssojet.com/how-to-guides/sso/integrations/)
-- [OIDC Endpoints](https://docs.ssojet.com/api-reference/oidc/)
+- [API Endpoints](https://docs.ssojet.com/api-reference/)
 
 ### OIDC Libraries
 - **Next.js**: next-auth, @auth/core

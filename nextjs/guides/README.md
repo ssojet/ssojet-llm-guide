@@ -101,10 +101,9 @@ Don't see your framework or setup? Use our **AI prompt template** to generate a 
 
 ## 🆘 Need Help?
 
-- **General Questions:** See [main README](../README.md)
-- **Setup Issues:** Check [SSOJet Setup Guide](../docs/ssojet-setup.md)
-- **Troubleshooting:** See [Troubleshooting Guide](../docs/troubleshooting.md)
-- **OIDC Concepts:** Read [OIDC Concepts](../docs/oidc-concepts.md)
+- **General Questions:** See [main README](../../README.md)
+- **Setup Issues:** Check [SSOJet Setup Guide](../../ssojet-setup.md)
+- **OIDC Concepts:** Read [OIDC Concepts](../../oidc-concepts.md)
 
 ## 🤝 Contributing
 
@@ -113,7 +112,7 @@ Want to add a guide for another framework?
 1. Use the AI prompt template to generate the guide
 2. Test the integration thoroughly
 3. Submit a pull request
-4. See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines
+4. See [CONTRIBUTING.md](../../CONTRIBUTING.md) for guidelines
 
 ## 📅 Upcoming Guides
 

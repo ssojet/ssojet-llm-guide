@@ -263,6 +263,6 @@ If this project helps you, please consider giving it a star! It helps others dis
 <p align="center">
   <a href="https://ssojet.com">Website</a> •
   <a href="https://docs.ssojet.com">Documentation</a> •
-  <a href="https://twitter.com/ssojet">Twitter</a> •
+  <a href="https://twitter.com/sso_jet">Twitter</a> •
   <a href="https://github.com/ssojet">GitHub</a>
 </p>

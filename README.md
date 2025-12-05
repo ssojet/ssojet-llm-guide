@@ -49,29 +49,44 @@ Instead of static documentation, we use AI prompts to generate **contextual, fra
 
 Before starting, ensure you have:
 - An active [SSOJet account](https://portal.ssojet.com/)
-- A frontend application with an existing login page
-- Basic knowledge of your framework and OIDC concepts
-- Node.js 18+ installed (for most frameworks)
 
-## 📖 Available Frameworks
+## 📖 Available Technologies & Frameworks
 
 ### 🎨 Frontend Technologies
 
-#### 🔷 **[React](./react/README.md)** | 💚 **[Vue.js](./vue/README.md)** | 🔴 **[Angular](./angular/README.md)** | ⚡ **[Next.js](./nextjs/README.md)** | 🟡 **[JavaScript](./javascript/README.md)**
+| Technology | Description | Guides | Examples | Prompts |
+|------------|-------------|--------|----------|---------|
+| 🔷 **[React](./frontend/react/)** | Modern UI library by Facebook | [View Guides](./frontend/react/guides/) | [View Examples](./frontend/react/examples/) | [View Prompts](./frontend/react/prompts/) |
+| 💚 **[Vue.js](./frontend/vue/)** | Progressive JavaScript framework | [View Guides](./frontend/vue/guides/) | [View Examples](./frontend/vue/examples/) | [View Prompts](./frontend/vue/prompts/) |
+| 🔴 **[Angular](./frontend/angular/)** | Platform for building web applications | [View Guides](./frontend/angular/guides/) | [View Examples](./frontend/angular/examples/) | [View Prompts](./frontend/angular/prompts/) |
+| ⚡ **[Next.js](./frontend/nextjs/)** | React framework with SSR and SSG | [View Guides](./frontend/nextjs/guides/) | [View Examples](./frontend/nextjs/examples/) | [View Prompts](./frontend/nextjs/prompts/) |
+| 🟡 **[JavaScript](./frontend/javascript/)** | Vanilla JavaScript implementations | [View Guides](./frontend/javascript/guides/) | [View Examples](./frontend/javascript/examples/) | [View Prompts](./frontend/javascript/prompts/) |
 
 ### 🖥️ Backend Technologies
 
-#### 🟢 **[Express](./backend/express/README.md)** | 🐍 **[Python](./backend/python/README.md)** | 🔵 **[Go](./backend/golang/README.md)** | 🟣 **[.NET Core](./backend/dotnet/README.md)**
+| Technology | Description | Guides | Examples | Prompts |
+|------------|-------------|--------|----------|---------|
+| 🟢 **[Express.js](./backend/express/)** | Fast, minimalist Node.js framework | [View Guides](./backend/express/guides/) | [View Examples](./backend/express/examples/) | [View Prompts](./backend/express/prompts/) |
+| 🐍 **[Python](./backend/python/)** | Django, Flask, FastAPI integrations | [View Guides](./backend/python/guides/) | [View Examples](./backend/python/examples/) | [View Prompts](./backend/python/prompts/) |
+| 🔵 **[Go (Golang)](./backend/golang/)** | Efficient and scalable backend | [View Guides](./backend/golang/guides/) | [View Examples](./backend/golang/examples/) | [View Prompts](./backend/golang/prompts/) |
+| 🟣 **[.NET Core](./backend/dotnet/)** | Cross-platform .NET framework | [View Guides](./backend/dotnet/guides/) | [View Examples](./backend/dotnet/examples/) | [View Prompts](./backend/dotnet/prompts/) |
+| ☕ **[Java EE](./backend/java-ee/)** | Enterprise Java applications | [View Guides](./backend/java-ee/guides/) | [View Examples](./backend/java-ee/examples/) | [View Prompts](./backend/java-ee/prompts/) |
+| 🍃 **[Spring Boot](./backend/spring-boot/)** | Java Spring framework | [View Guides](./backend/spring-boot/guides/) | [View Examples](./backend/spring-boot/examples/) | [View Prompts](./backend/spring-boot/prompts/) |
+| 🎨 **[Laravel](./backend/laravel/)** | PHP framework for web artisans | [View Guides](./backend/laravel/guides/) | [View Examples](./backend/laravel/examples/) | [View Prompts](./backend/laravel/prompts/) |
+| 🐘 **[PHP](./backend/php/)** | Symfony, Slim, CodeIgniter, native PHP | [View Guides](./backend/php/guides/) | [View Examples](./backend/php/examples/) | [View Prompts](./backend/php/prompts/) |
 
-#### ☕ **[Java EE](./backend/java-ee/README.md)** | 🍃 **[Spring Boot](./backend/spring-boot/README.md)** | 🎨 **[Laravel](./backend/laravel/README.md)** | 🐘 **[PHP](./backend/php/README.md)**
+### 📱 Native Mobile Platforms
 
-### 📱 Native Mobile
-
-#### 🤖 **[Android](./native/android/README.md)** | 🍎 **[iOS](./native/ios/README.md)**
+| Platform | Description | Guides | Examples | Prompts |
+|----------|-------------|--------|----------|---------|
+| 🤖 **[Android](./native/android/)** | Native Android, Kotlin, Java, Compose | [View Guides](./native/android/guides/) | [View Examples](./native/android/examples/) | [View Prompts](./native/android/prompts/) |
+| 🍎 **[iOS](./native/ios/)** | Native iOS, Swift, SwiftUI, Objective-C | [View Guides](./native/ios/guides/) | [View Examples](./native/ios/examples/) | [View Prompts](./native/ios/prompts/) |
 
 ### 🔧 Other Technologies
 
-#### 🤝 **[M2M (Machine-to-Machine)](./other/m2m/README.md)**
+| Technology | Description | Guides | Examples | Prompts |
+|------------|-------------|--------|----------|---------|
+| 🤝 **[M2M (Machine-to-Machine)](./other/m2m/)** | Service-to-service authentication | [View Guides](./other/m2m/guides/) | [View Examples](./other/m2m/examples/) | [View Prompts](./other/m2m/prompts/) |
 
 ---
 
@@ -85,53 +100,7 @@ Use our AI prompt templates to generate guides for:
 
 Navigate to the technology-specific directory and check the `/prompts/` folder for AI templates.
 
-## 🛠️ Repository Structure
-
-```
-ssojet-llm-guide/
-├── README.md                          # This file
-├── LICENSE                            # MIT License
-├── CONTRIBUTING.md                    # Contribution guidelines
-├── .gitignore                         # Git ignore rules
-│
-├── prompts/                           # AI prompt templates
-│   ├── README.md                      # Prompt usage guide
-│   ├── ai-prompt-template.md         # Main AI prompt template
-│   └── customization-examples.md     # Example customizations
-│
-├── guides/                            # Pre-generated integration guides
-│   ├── react-cra/                    # Create React App guide
-│   │   ├── README.md
-│   │   └── examples/
-│   ├── nextjs-app-router/            # Next.js App Router guide
-│   │   ├── README.md
-│   │   └── examples/
-│   ├── nextjs-pages-router/          # Next.js Pages Router guide
-│   │   ├── README.md
-│   │   └── examples/
-│   ├── remix/                        # Remix framework guide
-│   │   ├── README.md
-│   │   └── examples/
-│   └── vite-react/                   # Vite + React guide
-│       ├── README.md
-│       └── examples/
-│
-├── examples/                          # Complete working examples
-│   ├── react-cra-example/
-│   ├── nextjs-example/
-│   └── remix-example/
-│
-├── assets/                            # Shared assets
-│   ├── images/                       # Screenshots and diagrams
-│   └── logos/                        # SSOJet branding
-│
-└── docs/                             # Additional documentation
-    ├── ssojet-setup.md               # SSOJet configuration guide
-    ├── oidc-concepts.md              # OIDC fundamentals
-    └── troubleshooting.md            # Common issues and solutions
-```
-
-## 🔧 How It Works
+##  How It Works
 
 ### The AI Integration Process
 
@@ -140,62 +109,6 @@ ssojet-llm-guide/
 3. **Step-by-Step Implementation**: Follow the generated guide to modify your login page
 4. **Testing & Validation**: Test both traditional and SSO login flows
 5. **Production Deployment**: Deploy with confidence using best practices
-
-### Integration Flow
-
-```
-┌─────────────────────┐
-│  Existing Login     │
-│  Page (Email/Pass)  │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│ Add "Sign in with   │
-│      SSO" Link      │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│  User Clicks SSO    │
-│  (Toggle UI)        │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│  OIDC Request with  │
-│   login_hint Email  │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│  SSOJet Auth Flow   │
-│   (OIDC Provider)   │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│  Handle Callback    │
-│  (Authorization     │
-│   Code Exchange)    │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│  Redirect to        │
-│  Dashboard/App      │
-└─────────────────────┘
-```
-
-## 🔐 Security Considerations
-
-All generated guides include:
-- **Secure token handling** - Following OAuth 2.0 best practices
-- **PKCE support** - For public clients (SPAs)
-- **CSRF protection** - State parameter validation
-- **Session management** - Secure session handling
-- **Error handling** - Graceful error responses
-- **Production readiness** - Environment-specific configurations
 
 ## 🌟 Why SSOJet?
 
@@ -207,7 +120,7 @@ All generated guides include:
 - 📊 **Analytics & Monitoring** - Real-time insights
 - 💬 **Great Support** - Expert assistance when you need it
 
-**[Start Free Trial →](https://portal.ssojet.com/)**
+**[Start Free →](https://portal.ssojet.com/)**
 
 ## 📝 Contributing
 
@@ -236,11 +149,6 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 - [OpenID Connect Specification](https://openid.net/connect/)
 - [OAuth 2.0 RFC](https://tools.ietf.org/html/rfc6749)
 - [OIDC Playground](https://openidconnect.net/)
-
-### React & Framework Resources
-- [React Documentation](https://react.dev)
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Remix Documentation](https://remix.run/docs)
 
 ## 💬 Support
 
